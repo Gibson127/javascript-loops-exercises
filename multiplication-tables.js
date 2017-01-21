@@ -12,3 +12,16 @@ Bonus: Use a nested for loop to show the tables for every multiplier from
 */
 
 // YOUR CODE GOES HERE
+var multiplier = 9;
+       for (var i = 0; i <= 10; i++) {
+        var result = multiplier * i;
+        console.log(multiplier + ' * ' + i + ' = ' + result);
+}         
+
+
+        for (var multiplier = 9; multiplier <= 10; multiplier++) {
+        for (var i = 0; i <= 10; i++) {
+            var result = multiplier * i;
+            console.log(multiplier + ' * ' + i + ' = ' + result);
+ }
+}
